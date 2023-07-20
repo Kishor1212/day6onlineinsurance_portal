@@ -1,0 +1,98 @@
+.head{
+    background-image: url(auto.jpg);
+    background-size: cover;
+    
+    height: 100vh;
+   
+}
+.borde{
+    /* background-color: white; */
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 15px;
+   width: 30vw;
+    height:70vh;
+    margin-left: 20cm;
+    margin-top: 1.3cm;
+    
+    
+}
+.head h1{
+    margin-left: 16cm;
+    color: black;
+    
+}
+.head h2{
+    margin-left: 20cm;
+    color: black;
+    font-weight: 600px;
+    font-family: sans-serif;
+    margin-top: 1cm;
+}
+.box1
+{
+    width: 3cm;
+    background-color:transparent;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-left: 1.5cm;
+    margin-top: 1.1cm;
+    height: 1.5cm;
+    
+    .check{
+    background:transparent;
+    height: 1cm;
+    width: .6cm;
+}
+#check1
+{
+    font-size: 0.7rem;
+    margin-left: .5cm;
+    margin-top: 0;
+    color: lawngreen;
+    cursor: pointer;
+    
+}
+#check1{
+    font-size: large;
+    margin-left: .2cm;
+    margin-bottom: 2cm;
+}
+}
+.outerbox
+{
+    display: flex;
+}
+.box1
+{
+    width: 3cm;
+    background-color:transparent;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    display: flex;
+    
+}
+
+.check1{
+    background:transparent;
+    height: 1cm;
+    width: .6cm;
+    cursor: pointer;
+    align-items: center;
+}
+.continue1{
+    margin-left:3.8cm;
+    margin-top: 1.2cm;
+    border: 3px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 5cm;
+    height: 1cm;
+    font-weight: 300px;
+    font-family: sans-serif;
+}
+.continue1:hover{
+color: red;
+cursor: pointer;
+}

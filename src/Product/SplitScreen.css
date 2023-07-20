@@ -1,0 +1,56 @@
+
+.split
+{
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left{
+  left: 0;
+  /* background-color: red; */
+  background-image: url(health.jpg);
+  background-size: cover;
+}
+.right{
+  right: 0;
+  /* background-color: blue; */
+  background-image: url(electronic.jpg);
+  background-size: cover;
+  
+}
+.middle{
+  left: 25%;
+  /* background-color: yellow; */
+  background-image: url(car.jpg);
+ 
+  background-size: cover;
+
+}
+.middle1{
+  left: 50%;
+  /* background-color:green; */
+  background-image: url(bike.jpg);
+  background-size: cover;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.centered h3{
+  font-size: 1cm;
+  margin: 0;
+  padding: 0;
+  color: white;
+ 
+}
+.centered p{
+  text-align: justify;
+  font-size: 20px;
+}

@@ -1,0 +1,44 @@
+/* CustomerService.css */
+
+.customer-service {
+  background-color:black;
+  padding: 20px;
+}
+
+.customer-service-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.customer-service-left {
+  margin-bottom: 10px;
+}
+
+.customer-service-right a {
+  padding: 10px 20px;
+  background-color: #333;
+  color:white;
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .customer-service-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .customer-service-right {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .customer-service-left,
+  .customer-service-right {
+    margin-bottom: 20px;
+  }
+}
